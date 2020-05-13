@@ -1,0 +1,21 @@
+﻿@page
+@model Demo.ASPCoreNet.FamiliesSummaryModel
+@{
+    ViewData["Title"] = "FamiliesSummary";
+}
+
+<h1>FamiliesSummary</h1>
+
+@foreach(var family in Model.Families)
+{
+<div>
+    <a asp-page="./FamilyDetails"
+       asp-route-familyId="@family.ID">
+        <i>
+            @family.Name
+        </i>
+    </a>
+
+</div>
+}
+

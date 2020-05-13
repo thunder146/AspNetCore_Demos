@@ -1,0 +1,14 @@
+﻿@page "{personId:int}"
+@model Demo.ASPCoreNet.PersonDetailsModel
+@{
+    ViewData["Title"] = "PersonDetails";
+}
+
+<h1>PersonDetails</h1>
+<h2>@Model.Person.Name</h2>
+<div>
+    Familyname: @Model.Person.Family.Name
+</div>
+<div>
+    Date of Birth: @Model.Person.DateOfBirth.ToShortDateString()
+</div>

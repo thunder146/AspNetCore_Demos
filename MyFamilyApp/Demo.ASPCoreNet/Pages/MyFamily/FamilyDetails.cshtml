@@ -1,0 +1,22 @@
+﻿@page "{familyId:int}"
+@model Demo.ASPCoreNet.FamilyDetailsModel
+@{
+    ViewData["Title"] = "FamilyDetails";
+}
+
+<h1>FamilyDetails</h1>
+<h2>@Model.Family.Name</h2>
+
+@foreach (var person in Model.People)
+{
+    <div>
+        <a asp-page="./PersonDetails"
+           asp-route-personId="@person.ID">
+            <i>
+                @person.Name
+            </i>
+        </a>
+
+    </div>
+}
+
