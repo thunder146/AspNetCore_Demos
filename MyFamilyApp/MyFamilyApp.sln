@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WPF", "Demo.WPF\Demo.WPF.csproj", "{AA0688F4-4163-49D3-B989-565979281F61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.ASPCoreNet", "Demo.ASPCoreNet\Demo.ASPCoreNet.csproj", "{0DA0D797-A899-4285-801B-510F7BCB2C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebUI", "Demo.ASPCoreNet\Demo.WebUI.csproj", "{0DA0D797-A899-4285-801B-510F7BCB2C98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
